@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//This Calculator of mine can execute multiple tasks with minimal error and higher accuracy.In this upgraded version , it lets you Choose freely and you dont even need to put any operators. Enjoy!  
 int main ()
 
 {
