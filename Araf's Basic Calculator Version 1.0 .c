@@ -16,10 +16,16 @@ int main()
 
      case '+': printf("The Added Value is= %.1lf + %.1lf= %.1lf",Number_1,Number_2,(Number_1+Number_2));
      break;
+
      case '-': printf("The Subtracted Value is= %.1lf - %.1lf= %.1lf",Number_1,Number_2,(Number_1-Number_2));
      break;
-     case '/': printf("The Divided Value is= %.1lf/%.1lf= %d and the Remainder is : %.0lf",Number_1,Number_2,((float)(Number_1/Number_2)),((int)Number_1 % (int) Number_2));
+
+     case '/': printf("The Divided Value is= %.1lf/%.1lf= %.1lf \n\n\t",Number_1,Number_2,((Number_1/Number_2)));
+               printf("where the real division value = : %.0lf\n\n\t",(Number_1/Number_2)-((double)((int)Number_1 % (int) Number_2)));
+              // The remainder Can't be turned into float, so i'm leaving this part  printf("And\n\n\tRemainder is = %.2lf\n\n", (( (Number_1/Number_2) ) - (float)( ( (Number_1/Number_2) )-((double)((int)Number_1 % (int) Number_2)) ) ) ) ;
      break;
+
+
      case '*': printf("The Multiplied Value is= %.1lf * %.1lf= %.1lf",Number_1,Number_2,(Number_1*Number_2));
      break;
 
@@ -45,6 +51,7 @@ int main()
      case 'Y' : printf("Calculation Completed\n\n\n");
      break;
     }
+
 
     printf("\n\n\n\t\t___Thank you For Using , I'm bringing upgrades in the Version 1.5___\n\n");
     printf("\n\n\n_____________________________________________________");
