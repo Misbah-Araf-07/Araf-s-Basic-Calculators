@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-
+//this is the most basic version of calculator where you have give the numbers and the operators . It can only execute 4 functions. Apart from some errors , it works okay. Upgrade is on its way !!  
 int main()
 {
     printf("\t\t\t\t \"Misbah Ahmed Araf's Basic Calculator Version 1.0\" \t\n\n\n");
