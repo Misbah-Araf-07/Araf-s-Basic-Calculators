@@ -10,7 +10,7 @@ int main ()
     float T,S ;
     int K;
 
-    printf("Please Select The Operation You want to execute:\n\n\t\tPress\tX for Comparison-\n\n\t\t\tY for  Calculation-\n\n\t\t\tZ to know if its odd or even-");
+    printf("Please Select The Operation You want to execute:\n\n\t\tPress\tX for Comparison-\n\n\t\t\tY for  Calculation-\n\n\t\t\tZ to know if its odd or even- \n ");
     scanf(" %c",&O);
 
     switch(O)
@@ -35,7 +35,7 @@ int main ()
         case 'Y':
         case 'y':
 
-                 printf("Please select the type of operation you want: \n\tPress A for(+)\n\tPress B for(-)\n\tPress C for(x)\n\tPress D for(/)\n\n");
+                 printf("Please select the type of operation you want: \n\tPress 'A' for(+)\n\tPress 'B' for(-)\n\tPress 'C' for(x)\n\tPress 'D' for(/)\n\n");
                  scanf(" %c",&N);
 
 
